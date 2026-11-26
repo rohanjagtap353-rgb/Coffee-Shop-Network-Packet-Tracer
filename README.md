@@ -37,4 +37,4 @@ Key Configurations & Security Features
 
 • Guest Isolation / Traffic Filtering: Restricted Guest Wi-Fi (192.168.30.0/24) from reaching internal Management (192.168.10.0/24) and POS (192.168.20.0/24) subnets while preserving gateway reachability (192.168.30.1).
 
-• Device Hardening & Remote Access: Configured encrypted privileged EXEC passwords (enable secret), password encryption service, MOTD warning banners, disabled DNS lookups, and enabled SSHv2 with 1200-bit RSA keys and local authentication on VTY lines.
+• Device Hardening & Remote Access: Configured encrypted privileged EXEC passwords (enable secret), Hostname, password encryption service, MOTD warning banners, disabled DNS lookups, and enabled SSHv2 with 1200-bit RSA keys and local authentication on VTY lines, Exec-Timoout.
