@@ -30,5 +30,7 @@ VLAN 99
 Key Configurations & Security Features
 
 • VLAN Segmentation & Trunking: Configured 802.1Q trunking (GigabitEthernet0/1) between the multilayer switch and router, restricting allowed traffic to VLANs 10, 20, 30, and 99, with spanning-tree portfast enabled on access ports.
+
 • Guest Isolation / Traffic Filtering: Restricted Guest Wi-Fi (192.168.30.0/24) from reaching internal Management (192.168.10.0/24) and POS (192.168.20.0/24) subnets while preserving gateway reachability (192.168.30.1).
+
 • Device Hardening & Remote Access: Configured encrypted privileged EXEC passwords (enable secret), password encryption service, MOTD warning banners, disabled DNS lookups, and enabled SSHv2 with 1200-bit RSA keys and local authentication on VTY lines.
