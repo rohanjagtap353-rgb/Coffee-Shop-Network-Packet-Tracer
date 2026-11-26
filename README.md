@@ -17,12 +17,16 @@ Devices & Infrastructure
 VLAN & Subnet Design
 
 VLAN ID	Name	Subnet / Gateway	Connected Devices
+
 VLAN 10 (Green)
 	Management_Office	192.168.10.0/24 (192.168.10.1)	Manager PC, Office Printer
+	
 VLAN 20 (Orange)
 	POS	192.168.20.0/24 (192.168.20.1)	POS Terminal, Receipt Printer
+	
 VLAN 30 (Yellow)
 	Guest_WIFI	192.168.30.0/24 (192.168.30.1)	Guest Wireless AP, Guest Laptops
+	
 VLAN 99 
 	Network_Management	192.168.99.0/24 (192.168.99.2)	Switch SVI Management Interface
 
